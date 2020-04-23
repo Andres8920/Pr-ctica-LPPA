@@ -1,0 +1,32 @@
+h1 {
+  color: #0000FF;
+} 
+
+h2 {
+  background-color: #FF0000;
+}
+
+#estilo {
+  front-size: 10px;
+}
+
+.subtitulo {
+  font-weight: 100;
+  color: yellow
+}
+
+.otraclase:hover {
+  color: green; 
+  cursor: pointer;
+}   
+
+body {
+  background-color: lightcoral;
+}    
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+   }    
+}
