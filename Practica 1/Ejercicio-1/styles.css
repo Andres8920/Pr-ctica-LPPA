@@ -1,0 +1,14 @@
+  body {
+	padding-top:100px; 
+    background-color: grey;
+    }
+	 
+	#box { 
+	margin:auto;
+    width: 500px;
+	height: 500px;
+    border-width: 5px;
+    border-color: black;
+	border-style: solid;
+    background-color: green;
+    }

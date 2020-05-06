@@ -1,0 +1,55 @@
+body{
+    background-color: grey;
+}
+.div1 {
+    background-color: red;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px; 
+    
+    
+}
+  
+.div2 {
+    
+    position: relative;
+    height: 300px;
+    width: 100px;
+    margin: 25px;
+    float: left;
+     
+
+}
+/*.div3 {
+    
+    height: 300px;
+    width: 200px;
+    left: 600px;
+    position: absolute ;
+    top: 50px;
+    
+
+}
+.div4 {
+    background-color: greenyellow;
+    height: 300px;
+    width: 200px;
+    left: 300px;
+    position: absolute ;
+    top: 50px;
+    
+
+}
+.div5 {
+    background-color: greenyellow;
+    height: 300px;
+    width: 200px;
+    left: 300px;
+    position: absolute ;
+    top: 50px;
+    
+
+}*/
+
