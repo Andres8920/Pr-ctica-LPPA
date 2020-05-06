@@ -1,0 +1,53 @@
+html{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+body {
+    background-color: white;
+    border-style: solid; 
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    
+}
+#uno {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+#dos {
+    background-color: blue;
+    border-style: none;
+    width: 110px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+#tres {
+    background-color: green;
+    border-style: none;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    
+}
+
+p {
+    
+    
+    
+}
