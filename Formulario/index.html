@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <script src="app.js"></script>
+    <style>
+        .error {
+            border: solid 2px #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="procesar.php" method="post" id="index.html">
+        <table align="center" width="500" cellspacing="25">
+            <tr>
+                <td>Nombre*: </td>
+                <td>
+                    <input type="text" name="nombre" id="nombre"
+                    maxlength="15" pattern="[A-Za-z]{2,15}"
+                    title="Introduce entre 2 y 15 letras"
+                    required/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Apellido*: </td>                   
+              <td>     
+                  <input type="text" name="apellido" id="apellido"
+                  maxlength="15" pattern="<[A-Za-z]{2,15}"
+                  title="Introduce entre 2 y 15 letras"
+                  required/>
+                </td>
+            </tr>
+            <td><strong>Genero</strong></td>
+            <td><p>
+            <label>Femenino
+                  <input type="radio" name="genero"  value="Femenino" checked="checked" />
+            </label>
+            <br />
+            <label>
+            Masculino <input type="radio" name="genero" value="Masculino" id="genero_1" />
+         </label>
+        <br />
+      </p></td>
+    </tr>
+      <td><strong>Pais</strong> </td>
+      <td><select name="pais" id="pais">
+        <option value="Argentina">Argentina</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Italia">Italia</option>
+        <option value="Espana">Espana</option>
+        <option value="Francia">Francia</option>
+        <option value="Alemania">Alemania</option>
+        <option value="Inglaterra">Inglaterra</option>
+        <option value="Belgica">Belgica</option>
+        <option value="Suecia">Suecia</option>
+        <option value="Suiza">Suiza</option>
+        <option value="Rumania">Rumania</option>
+        <option value="Hungria">Hungria</option>
+        <option value="Republica Checa">Republica Checa</option>
+        <option value="Rusia">Rusia</option>
+        <option value="Canada">Canada</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Noruega">Noruega</option>
+        <option value="Dinamarca">Dinamarca</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Intereses:</strong></td>
+      <td><p>
+        <label>Musica
+               <input type="radio" name="intereses"  value="intereses" checked="checked" />
+        </label>
+        <br/>
+        <label>Futbol
+               <input type="radio" name="Futbol" value="Intereres" checked="interes_1" />
+        </label>
+        <br/>
+        <label>Ingenieria
+               <input type="radio" name="Ingenieria" value="Intereses" checked="interes_2" />
+        </label>
+        <br/>
+      </p></td>
+    </tr>
+                <td>Edad*: </td>
+                <td>
+                    <input type="number" name="edad" id="edad" min="18" max="100" required/>
+                </td>
+            </tr>
+                <tr>
+                <td>Email*: </td>
+                <td>
+                    <input type="text" name="Email" id="Email" pattern="[1-100]{100}" title="Email entre 1 y 100 letras " required/>
+                </td>
+            </tr>
+    <tr>
+		<td>Comentarios:</td><td><textarea cols="30" rows="6"> </textarea></td></tr>
+        </table>
+        <p id="mensajeError"></p>
+        <p>
+            <input type="submit" value="Enviar" id="enviar" />
+            <input type="reset" value="Borrar" id="borrar" />
+        </p>
+    </form>
+</body>
+
+</html>
