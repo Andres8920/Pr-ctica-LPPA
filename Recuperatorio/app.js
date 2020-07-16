@@ -1,7 +1,7 @@
 window.onload = function() {}
   var form = document.getElementById("formulario")
   form.onsubmit = function(evt) {
-    evt.preventDefault()
+    evt.preventDefault();
                                     let nombre = formulario.elements['nombre'].value
                                     let apellido = formulario.elements['apellido'].value
                                     let email = formulario.elements['email'].value
