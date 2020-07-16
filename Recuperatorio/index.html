@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="app.js"></script>
+  </head>
+  <body class="container">
+    <h1>Formulario</h1>
+    <form id="form" class="form">
+      <label for="nombre">Nombre</label>
+      <input
+        type="text"
+        name="nombre"
+        class="input"
+        placeholder="Escribe tu nombre" 
+        required
+        />
+
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          name="apellido"
+          class="input"
+          placeholder="Escribe tu apellido" 
+          required
+          />
+
+        <label for="edad">Edad</label>
+        <input
+          type="number"
+          name="edad"
+          min="5" max="100"
+          class="input"
+          placeholder="Escribe tu edad"
+          required
+          />
+
+        <label for="email">Email</label>
+           <input 
+             type="email" 
+             name="email" 
+             class="input"
+             placeholder="Escribe tu email" 
+             required
+             />
+
+            <label for="codigo postal">Codigo Postal</label>
+             <input 
+               type="number" 
+               name="codigo postal"
+               min="100" max="9999"
+               class="input"
+               placeholder="Escribe tu codigo postal" 
+               required
+                />
+
+              <label for="pais">Provincia</label>
+              <select name="provincia">
+                <option value="buenos aires">Buenos Aires</option>
+                <option value="cordoba">Cordoba</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="jujuy">Jujuy</option>
+                <option value="salta">Salta</option>
+                <option value="tucuman">Tucuman</option>
+                <option value="la rioja">La Rioja</option>
+                <option value="chubut">Chubut</option>
+                <option value="corrientes">Corrientes</option>
+                <option value="formosa">Formosa</option>
+                <option value="misiones">Misiones</option>
+                <option value="rio negro">Rio Negro</option>
+                <option value="entre rios">Entre Rios</option>
+                <option value="san luis">San Luis</option>
+                <option value="santa cruz">Santa Cruz</option>
+                <option value="neuquen">Neuquen</option>
+                <option value="san juan">San Juan</option>
+                <option value="santiago del estero">Santiago Del Estero</option>
+                <option value="la pampa">La Pampa</option>
+                <option value="chaco">Chaco</option>
+                <option value="tierra  del fuego">Tierra Del Fuego</option>
+                <option value="catamarca">Catamarca</option>
+              </select>    
+            <label for="localidad">Localidad</label>
+             <input
+              type="text"
+              name="localidad"
+              class="input"
+              placeholder="Escribe tu localidad" 
+              required
+            />
+            <label for="sexo">Sexo</label>
+                <div id="radio">
+                    <input 
+                        type="radio" 
+                        name="sexo"
+                        value="hombre" 
+                        required
+                    />
+                    Hombre
+                    <input 
+                        type="radio" 
+                        name="sexo"
+                        value="mujer" 
+                    />
+                    Mujer
+                    <input 
+                        type="radio" 
+                        name="sexo"
+                        value="otro" 
+                    />
+                    Otro
+                </div>
+
+                <label for="Intereses">Temas de Interes</label>
+                    <div id="checkbox">
+                        <input
+                            type="checkbox"
+                            name="informatica"
+                            value="informatica"
+                         />
+                         Informatica
+                         <input
+                            type="checkbox"
+                            name="matematicas"
+                            value="matematicas"
+                         />
+                         Matematicas
+                         <input
+                            type="checkbox"
+                            name="psicologia"
+                            value="psicologia"
+                         />
+                         Psicologia
+                         <input
+                            type="checkbox"
+                            name="series"
+                            value="series"
+                         />
+                         Series
+                    </div>
+
+                        <div class="linea">
+                            <button type="submit">Enviar</button>
+                        <div class="linea">
+                             <button type="reset" value="Limpiar">Limpiar</button>
+                    </div>
+                    </form>
+                    </body>
+            </html>
