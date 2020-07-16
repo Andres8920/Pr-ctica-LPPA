@@ -1,45 +1,73 @@
 body {
-    display: flex;
-    justify-content: center;
+    display: center;
+    justify-content: left;
     align-items: center;
     height: 100vh;
+    font-size: 18px;
+    margin: 1%;
+    padding: 1%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #679ab6;
     background: #d6af92;
   }
-    
+
+  .input {
+    display: center;
+  }  
+
   #formulario {
-    padding: 20px;
+    padding: 30px;
     width: 40%;
     min-height: 50vh;
     background-color: #31a2f3;
     box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.589);
   }
-  
-  .linea {
-    display: flex;
+
+
+.input {
+    display: center;
   }
-  
-  .nombre {
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 80%;
+    min-height: 50vh;
+    background-color: #d4e4f0;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.589);
+  }
+
+  .apellido {
+    display: center;
     width: 50%;
     margin: 15px;
-  }
-  
-  .email {
-    width: 40%;
-    margin: 20px;
-  }
+  }  
   
   .edad {
-    width: 15%;
+    display: center;
+    width: 45%;
     margin: 15px;
   }
-  
+
+  input[type="text"],input[type="email"] {
+    width: 100%;
+  }
+
   .provincia {
+    display: center;
     width: 35%;
     margin: 15px;
   }
   
+  .localidad {
+    display: center;
+    width: 45%;
+    margin: 15px;
+  }
+
   .sexo {
     width: 20%;
     margin: 15px;
@@ -50,27 +78,20 @@ body {
     width: 30%;
     margin: 15px;
     display: grid;
-  }
-  
+  }  
     
   .item {
-    display: flex;
-  }
-  
-   
-  input[type="text"],input[type="email"] {
-    width: 100%;
-  }
-  
-    
+    display: center;
+  }  
+         
   button {
-    margin-top: 14px;
+    margin-top: 10px;
     font-family: inherit;
     font-size: 1.2em;
     font-weight: bold;
     color: #c2b8b0;
-    background-color: #17a17a;
-    width: 100%;
+    background-color: #f3faf8;
+    width: 120%;
     height: 9vh;
   }
   
